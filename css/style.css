@@ -154,12 +154,13 @@ button:hover {
     background-image: linear-gradient(rgba(0, 0, 0, 0.2)0%, rgba(0, 0, 0, 0.3)100%), url("../images/banner-bg.svg");
     background-size: 100%;
     background-position: center top;
-    height: 400px;
+    background-repeat:no-repeat;
     background-color: #081828;
+    background-size:cover;
 }
 
 .f-section .breadcrumb {
-    margin: 13% 0;
+    margin: 100px 0;
     text-align: center;
     background: none;
 }
